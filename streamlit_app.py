@@ -14,7 +14,7 @@ st.sidebar.header("Configuration")
 API_KEY = st.sidebar.text_input("Entrez votre clé API Financial Modeling Prep :", type="password")
 
 if not API_KEY:
-    st.warning("Veuillez entrer votre clé API dans la barre latérale pour continuer.")
+    st.warning("Veuillez entrer votre clé API Financial Modeling Prep gratuite sur leur site dans la barre latérale pour continuer.")
 else:
     # 2. Fonctions de récupération des données avec gestion des erreurs
     @st.cache_data
